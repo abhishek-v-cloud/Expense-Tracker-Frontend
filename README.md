@@ -32,22 +32,9 @@ A modern, responsive React + Vite frontend for the Bellcorp Expense Tracker appl
 - Node.js v16 or higher
 - npm or yarn package manager
 - Backend server running on `http://localhost:5000`
-
-## 🚀 Installation
-
-```bash
-# Navigate to frontend directory
-cd frontend
-
-# Install dependencies
-npm install
-
-# If using yarn
-yarn install
-
-# Install Recharts for charts (if not already included)
-npm install recharts
-```
+  
+## Backend Github Link 
+https://github.com/abhishek-v-cloud/Expense-Tracker-Backend.git
 
 ## ⚙️ Configuration
 
@@ -63,21 +50,17 @@ VITE_API_URL=http://localhost:5000/api
 VITE_APP_NAME=Bellcorp Expense Tracker
 ```
 
-
-## 📖 Running the Application
+## 🚀 Installation and Running the Application
 
 ```bash
-# Development mode with hot reload
+# Navigate to frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# to start 
 npm run dev
-
-# Production build
-npm run build
-
-# Preview production build
-npm run preview
-
-# Lint code (if ESLint configured)
-npm run lint
 ```
 
 The application will be available at `http://localhost:3000`
@@ -199,8 +182,4 @@ frontend/
    - Token automatically included in API headers
    - Expired token triggers login redirect
    - Logout clears token from storage
-
-
-
-
 
